@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="style.css" />
     <title>Landing Page - Version 2.0</title>
   </head>
@@ -11,7 +12,47 @@
     <section class="hero">
       <header>
         <img src="img/logo.svg" alt="logo" class="logo" />
+        <nav>
+          <ul class="nav__links">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <a href="#"><button class="med__button">Contact</button></a>
+        <div class="mobile__menu">
+          <input type="checkbox" id="toggle" />
+          <label for="toggle" class="hamburger">
+            <div class="hamburger__top"></div>
+            <div class="hamburger__meat"></div>
+            <div class="hamburger__bottom"></div>
+          </label>
+          <div class="hamburger__nav">
+            <div class="hamburger__nav__wrapper">
+              <nav class="hamburger__nav__items">
+                <a href="#">Services</a>
+                <a href="#">Projects</a>
+                <a href="#">About</a>
+              </nav>
+            </div>
+          </div>
+        </div>
       </header>
+      <section class="hero__content">
+        <div class="hero__text">
+          <p class="hero__subtitle">On-Demand Video Production</p>
+          <h1>Style and Form that Unmatched by All</h1>
+          <div class="play__section">
+            <div id="play" class="play__section">
+              <img src="./img/play.svg" alt="play button" />
+            </div>
+            <p>Watch why we are Better</p>
+          </div>
+        </div>
+      </section>
+      <div class="hero_video">
+        <img src="./img/fred-heap-8SNCo0OgiAI-unsplash.jpg" alt="car" />
+      </div>
     </section>
   </body>
 </html>
