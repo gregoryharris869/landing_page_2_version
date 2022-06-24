@@ -88,6 +88,39 @@ header {
   color: #e74d71;
 }
 
+.med__button {
+  width: 111px;
+  height: 36px;
+  background-color: transparent;
+  border: 1px solid #ecf0f1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.med__button:hover {
+  border: 1px solid #e74d71;
+  background-color: #e74d71;
+}
+
+.hero__content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  margin-top: 200px;
+}
+
+.hero__text {
+  grid-column-start: span 6;
+  margin-right: 40px;
+}
+
+.hero__subtitle {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 35px 0;
+  letter-spacing: 2px;
+}
+
 /* hamburger */
 
 .mobile__menu {
